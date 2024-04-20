@@ -1,4 +1,4 @@
-#>loggr:internal/tick
+#>loggr:_/tick
 #--------------------
 # @TICK
 #--------------------

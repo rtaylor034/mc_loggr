@@ -1,4 +1,4 @@
-#> loggr:impl/sendtochat/send
+#> loggr:_/impl/sendtochat/send
 #--------------------
 #- loggr:api/sendtochat
 #--------------------

@@ -1,4 +1,4 @@
-#>loggr:internal/load
+#>loggr:_/load
 #--------------------
 # @LOAD
 #--------------------
@@ -16,6 +16,6 @@ scoreboard objectives add loggr_var dummy
 scoreboard objectives add loggr_listento dummy
 
 #checkcapacity
-schedule clear loggr:internal/checkcapacity
-schedule function loggr:internal/checkcapacity 5s
+schedule clear loggr:_/checkcapacity
+schedule function loggr:_/checkcapacity 5s
 
