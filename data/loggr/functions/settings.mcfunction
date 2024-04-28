@@ -47,7 +47,7 @@ data modify storage loggr:settings chat_source_tags set value '"color":"green"'
 #-------------------
 #- these are directly added to the chat json via macro.
 #- deliberately does NOT include 'interpret:true'
-#   dynamic json such as '{"nbt":<path>,"storage":<storage>}' fetches data at *display* time and does not actually a snapshot of data.
+#   dynamic json such as '{"nbt":<path>,"storage":<storage>}' fetches data at *display* time and does not actually store a snapshot of data.
 #- if one really would like to json format a log message, consider gssen:api/text/evaluate, but be mindful of the overhead this causes.
 #-------------------
 # DEFAULT: [
